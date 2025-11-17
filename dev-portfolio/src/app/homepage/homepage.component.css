@@ -1,0 +1,38 @@
+pre {
+    white-space: pre-wrap; /* CSS3 */
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: pre; /* CSS2 */
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+    overflow-wrap: break-word; /* CSS3 */
+    width: 100vw;
+    overflow: hidden;
+}
+
+
+.textbox-title{
+    display: grid;
+}
+.harbinger-text{
+    font-family: 'Courier New', Courier, monospace;
+}
+.about-text{
+    /* overflow: hidden; */
+    overflow-wrap: break-word;
+    width: 90%;
+    padding-bottom: 100px;
+}
+.pricing-text{
+    /* overflow: hidden; */
+    overflow-wrap: break-word;
+    width: 90%;
+    padding-bottom: 100px;
+}
+
+.initial-command {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
