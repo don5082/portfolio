@@ -8,14 +8,44 @@ pre {
     overflow-wrap: break-word; /* CSS3 */
     width: 100vw;
     overflow: hidden;
+    background-color: rgba(0, 0, 0, 0);
+}
+.app-devtag{
+    background-color: rgba(0, 0, 0, 0);
+}
+.initial-command {
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 10vw;
 }
 
+/* .app-navbar {
+    background-color: rgba(0, 0, 0, 0);
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0);
+} */
+
+.textbox {
+    background-color: rgba(0, 0, 0, 0);
+}
 
 .textbox-title{
     display: grid;
+    /* background-image: url('/photos/grid.png'); */
+    background-repeat: repeat;
+    background-size: auto;
+    background-blend-mode:exclusion ;
+    backdrop-filter: blur(20px);
 }
-.harbinger-text{
+.dn-text{
     font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
 }
 .about-text{
     /* overflow: hidden; */

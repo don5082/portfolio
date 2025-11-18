@@ -1,7 +1,7 @@
 import os
 import subprocess
 
-directory = "harbinger-frontend"
+directory = "dev-portfolio"
 command = "ng serve --open"  # Replace with your desired command
 
 # Ensure the directory exists

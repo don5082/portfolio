@@ -4,9 +4,14 @@
     align-items: center;
     
 
-    width: 100%;
+    /* width: 50vw; */
     height: 80px;
     background-color: transparent;
+    background: transparent;
+    box-shadow: none;
+    position: relative;
+    right: 5vw;
+    z-index: 500;
     /* border-bottom: 3px solid #3695e6; */
 }
 .logo {
@@ -20,16 +25,19 @@
 
 }
 .navbar-buttons{
+    position: relative;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 30%;
     height: 80px;
     background-color: transparent;
-    position: relative;
     /* right: 2%; */
-    transform: translateX(-200%); /*now the reference point is the top right instead of the top left*/
-
+    /* transform: translateX(-200%); now the reference point is the top right instead of the top left */
+    background-color: transparent;
+    background: transparent;
+    
 }
 #button1 {
     position: relative;
@@ -43,7 +51,7 @@
 }
 #button3 {
     position: relative;
-    right: 10%;
+    right: 0%;
 
 }
 

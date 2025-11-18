@@ -1,0 +1,6 @@
+.projects {
+    display: grid;
+    width: 90%;
+    place-content: center;
+    align-self: start;
+}

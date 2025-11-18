@@ -8,6 +8,7 @@ import { DevtagComponent } from './devtag/devtag.component';
 import { AboutpageComponent } from './aboutpage/aboutpage.component';
 import { PricingpageComponent } from './pricingpage/pricingpage.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { ProjectComponent } from './project/project.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { NavbarComponent } from './navbar/navbar.component';
     DevtagComponent,
     AboutpageComponent,
     PricingpageComponent,
-    NavbarComponent
+    NavbarComponent,
+    ProjectComponent
   ],
   imports: [
     BrowserModule,

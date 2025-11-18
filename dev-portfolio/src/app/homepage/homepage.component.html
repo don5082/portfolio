@@ -1,16 +1,12 @@
-
 <div class="textbox-title">
-  <pre class="harbinger-text">
-  
+  <pre class="dn-text">
+  <!-- <img src="/photos/grid.png" alt="Background Image" class="background_img"> -->
   <div class="initial-command"><app-devtag [data]="pageTitles[0]"></app-devtag> <app-navbar></app-navbar> </div>
-
-  ███████╗ ██████╗ ██╗    ██╗██╗         ██████╗ ██╗      █████╗ ██╗   ██╗    ███████╗ ██████╗ ███████╗████████╗██╗    ██╗ █████╗ ██████╗ ███████╗
-  ██╔════╝██╔═══██╗██║    ██║██║         ██╔══██╗██║     ██╔══██╗╚██╗ ██╔╝    ██╔════╝██╔═══██╗██╔════╝╚══██╔══╝██║    ██║██╔══██╗██╔══██╗██╔════╝
-  █████╗  ██║   ██║██║ █╗ ██║██║         ██████╔╝██║     ███████║ ╚████╔╝     ███████╗██║   ██║█████╗     ██║   ██║ █╗ ██║███████║██████╔╝█████╗  
-  ██╔══╝  ██║   ██║██║███╗██║██║         ██╔═══╝ ██║     ██╔══██║  ╚██╔╝      ╚════██║██║   ██║██╔══╝     ██║   ██║███╗██║██╔══██║██╔══██╗██╔══╝  
-  ██║     ╚██████╔╝╚███╔███╔╝███████╗    ██║     ███████╗██║  ██║   ██║       ███████║╚██████╔╝██║        ██║   ╚███╔███╔╝██║  ██║██║  ██║███████╗
-  ╚═╝      ╚═════╝  ╚══╝╚══╝ ╚══════╝    ╚═╝     ╚══════╝╚═╝  ╚═╝   ╚═╝       ╚══════╝ ╚═════╝ ╚═╝        ╚═╝    ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝ v 0.1.0
-
+                                                                                        
+████▄  ██  ██ ██     ▄████▄ ███  ██   ███  ██ ██ ▄█████ ██  ██ ▄████▄ ██     ▄█████ 
+██  ██  ▀██▀  ██     ██▄▄██ ██ ▀▄██   ██ ▀▄██ ██ ██     ██████ ██  ██ ██     ▀▀▀▄▄▄ 
+  ████▀    ██   ██████ ██  ██ ██   ██   ██   ██ ██ ▀█████ ██  ██ ▀████▀ ██████ █████▀   
+                                                                                    
   </pre>
 
 
@@ -18,7 +14,46 @@
   <div class="about-text"><app-aboutpage></app-aboutpage></div>
 
   <app-devtag [data]="pageTitles[2]"></app-devtag>
-  <div class="pricing-text"><app-pricingpage></app-pricingpage></div>
+  <div class="projects"><app-project></app-project></div>
+  <!-- <div class="pricing-text"><app-pricingpage></app-pricingpage></div> -->
 
 </div>
+
+<style>
+.initial-command {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  width: 100%;         /* allow navbar to reach page edges */
+  padding: 0 1rem;     /* optional spacing from edges */
+}
+
+.navbar {
+  width: 100%;         /* fill the row */
+  height: 80px;
+  display: flex;
+  justify-content: space-between; /* logo left, buttons right */
+  align-items: center;
+  background: transparent;
+  z-index: 500;
+}
+
+.logo {
+  position: relative;
+  left: 0;              /* remove left:10% */
+  margin-left: 0.5rem;
+}
+
+.navbar-buttons {
+  margin-left: auto;    /* push buttons to the right */
+  display: flex;
+  gap: 1rem;            /* spacing between buttons */
+  align-items: center;
+  width: auto;          /* remove fixed 30% width */
+  background: transparent;
+}
+
+/* remove per-button position rules (#button1/#button2/etc) */
+</style>
 

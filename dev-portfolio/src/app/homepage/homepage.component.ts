@@ -12,8 +12,8 @@ export class HomepageComponent {
 
 export enum PageTitles {
   Homepage = "Homepage",
-  About = "About Us",
-  Pricing = "Pricing",
-  Login = "Login",
+  About = "About Me",
+  Pricing = "Projects",
+  Login = "Socials",
   
 }
